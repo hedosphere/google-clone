@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BsSearch, BsMicFill, BsCamera } from "react-icons/bs";
 
