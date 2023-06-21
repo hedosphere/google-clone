@@ -1,5 +1,12 @@
 // import Image from 'next/image'
 
+import Headers from "@/components/Headers";
+
 export default function Home() {
-  return <div>this is div</div>;
+  return (
+    <div className="">
+      <Headers />
+      this is div
+    </div>
+  );
 }
