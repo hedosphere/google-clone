@@ -15,6 +15,12 @@ const HomeSearch = () => {
         <BsMicFill className=" cursor-pointer" />
         <BsCamera className=" cursor-pointer" />
       </form>
+      <div className=" text-center flex justify-center items-center gap-6">
+        <button className="bg-red-9200 hover:ring-5 hover:ring-yellow-600 p-4">
+          Google Search
+        </button>
+        <button>I&apos;m feeling Lucky</button>
+      </div>
     </div>
   );
 };
